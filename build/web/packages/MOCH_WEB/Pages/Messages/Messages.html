@@ -1,0 +1,54 @@
+<h1>הודעות לחברות</h1>
+
+<material-button (trigger)="showBasicDialog = true"
+                 [disabled]="showBasicDialog"
+                 raised
+                 class="blue">
+  טסט דיאלוג מודלי
+</material-button>
+
+<modal [visible]="showBasicDialog">
+  <material-dialog class="basic-dialog">
+
+    <h3 header>Dialog title</h3>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum lacus est, eu
+      sagittis ligula fermentum vel. Maecenas facilisis leo dolor, quis rhoncus sem imperdiet vel.
+      Vestibulum vitae tristique orci. Ut lobortis varius convallis. Ut nec egestas diam. Nunc in
+      tincidunt erat. Vivamus porttitor molestie ligula, vitae dictum elit ornare quis. Donec
+      imperdiet venenatis justo ac viverra.
+    </p>
+
+    <div footer>
+      <material-button autoFocus
+                       clear-size
+                       (trigger)="showBasicDialog = false"
+                       class="white">
+        Close
+      </material-button>
+    </div>
+
+  </material-dialog>
+</modal>
+<hr>
+<h2>Glyphs</h2>
+<glyph icon="favorite"></glyph>
+<glyph icon="business"></glyph>
+<glyph icon="thumb_up"></glyph>
+<glyph icon="bluetooth_connected"></glyph>
+<glyph icon="insert_photo"></glyph>
+<glyph icon="more_horiz"></glyph>
+<hr>
+Input
+<br/>
+<material-input [maxCount]="5" label="Max 5 chars"></material-input>
+<hr>
+Checkbox
+<br/>
+<material-checkbox [indeterminate]="true" label="work in progress"></material-checkbox>
+<hr>
+<h2>Spinner</h2>
+<div dir="ltr">
+  <material-spinner></material-spinner> &nbsp; waiting for Godot
+</div>

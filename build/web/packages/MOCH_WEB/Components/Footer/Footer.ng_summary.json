@@ -1,0 +1,55 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "Footer"
+      }
+    ],
+    "6": "Footer.dart"
+  },
+  "type": {
+    "Footer": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "ns1-footer",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "Footer",
+        "moduleUrl": "asset:MOCH_WEB/lib/Components/Footer/Footer.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"container1\">איזור תחתי</div>",
+        "templateUrl": "asset:MOCH_WEB/lib/Components/Footer/Footer.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,61 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "statusBar"
+      }
+    ],
+    "6": "statusBar.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "statusBar": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "ns1-statusbar",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "statusBar",
+        "moduleUrl": "asset:MOCH_WEB/lib/Components/statusBar/statusBar.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"container1\">{{Title}}</div>",
+        "templateUrl": "asset:MOCH_WEB/lib/Components/statusBar/statusBar.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

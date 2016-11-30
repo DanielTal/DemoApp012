@@ -1,0 +1,61 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "C1"
+      }
+    ],
+    "6": "c1.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "C1": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "ns1-c1",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "C1",
+        "moduleUrl": "asset:MOCH_WEB/lib/c1/c1.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"container1\">קומפוננטה בסיס</div>",
+        "templateUrl": "asset:MOCH_WEB/lib/c1/c1.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

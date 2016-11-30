@@ -1,0 +1,30 @@
+html
+{
+    overflow-y: scroll;
+    margin: 10px;
+}
+body
+{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  direction: rtl;
+  background-color:#004080;
+  color: #ffffff;
+}
+div.container1
+{
+  outline: 1px solid #a0a0a0;
+  padding: 5px;
+  margin: 5px;
+}
+
+a.mainLink
+{
+  color: #d0d0ff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 5px;
+  outline: 1px solid #a0a0a0;
+  padding: 5px;
+}

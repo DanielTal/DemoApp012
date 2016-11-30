@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "BaseEntity": {
+      "class": "Identifier",
+      "name": "BaseEntity",
+      "moduleUrl": "asset:MOCH_WEB/lib/Models/BaseEntity.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

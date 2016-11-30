@@ -1,0 +1,64 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "MainNavBar",
+        "7": [
+          {
+            "2": "ROUTER_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "mainNavBar.dart"
+  },
+  "type": {
+    "MainNavBar": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "ns1-main-navbar",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "MainNavBar",
+        "moduleUrl": "asset:MOCH_WEB/lib/mainNavBar/mainNavBar.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div>\r\n    <a class=\"mainLink\" [routerLink]=\"['HomePage']\">דף הבית</a>\r\n    <a class=\"mainLink\" [routerLink]=\"['Reports']\">דוחות</a>\r\n    <a class=\"mainLink\" [routerLink]=\"['Messages']\">הודעות לחברות</a>\r\n</div>\r\n",
+        "templateUrl": "asset:MOCH_WEB/lib/mainNavBar/mainNavBar.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}
