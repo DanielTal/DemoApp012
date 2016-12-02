@@ -135,7 +135,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<div class=\"mainContainer\">\r\n    <ns1-main-navbar></ns1-main-navbar>\r\n    <br/>\r\n    <ns1-statusbar></ns1-statusbar>\r\n    <br/>\r\n    <router-outlet></router-outlet>\r\n    <br/>\r\n    <ns1-footer></ns1-footer>\r\n</div>",
+        "template": "<div class=\"mainContainer\">\r\n    <ns1-main-navbar></ns1-main-navbar>\r\n    <br/>\r\n    <ns1-statusbar></ns1-statusbar>\r\n    <br/>\r\n    <router-outlet></router-outlet>\r\n    <br/>\r\n    <ns1-footer></ns1-footer>\r\n    <div></div>\r\n    <div></div>\r\n</div>",
         "templateUrl": "asset:MOCH_WEB/lib/appComponent.html",
         "styles": [],
         "styleUrls": [],

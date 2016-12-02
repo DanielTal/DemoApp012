@@ -24,7 +24,7 @@ int count = 0;
   bool showAutoDismissDialog = false;
   bool showCustomColorsDialog = false;
   bool showNoHeaderFooterDialog = false;
-
+  DateTime Date1 = new DateTime.now();
   String dialogWithErrorErrorMessage;
 
   final maxHeightDialogLines = <String>[];

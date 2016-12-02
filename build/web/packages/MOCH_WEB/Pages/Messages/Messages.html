@@ -1,11 +1,107 @@
 <h1>הודעות לחברות</h1>
 
-<material-button (trigger)="showBasicDialog = true"
-                 [disabled]="showBasicDialog"
-                 raised
-                 class="blue">
-  טסט דיאלוג מודלי
-</material-button>
+
+<table style="width:100%">
+  <tr>
+      <td style="width:25%;outline:1px solid #ffffff">
+        <h2>Glyphs</h2>
+        <glyph icon="favorite"></glyph>
+        <glyph icon="business"></glyph>
+        <glyph icon="thumb_up"></glyph>
+        <glyph icon="bluetooth_connected"></glyph>
+        <glyph icon="insert_photo"></glyph>
+        <glyph icon="more_horiz"></glyph>
+      </td>
+      <td style="width:25%;outline:1px solid #ffffff">
+        <h2>Expansion Panel</h2>
+        <material-expansionpanel-set>
+          <material-expansionpanel name="Expansion panel">
+            <div>
+              Oh hi. I was just trying not to take too much space here.
+            </div>
+          </material-expansionpanel>
+          <material-expansionpanel name="Expansion panel #2">
+            <div>
+              Me too! Don't mind me.
+            </div>
+          </material-expansionpanel>
+        </material-expansionpanel-set>        
+      </td>
+      <td style="width:25%;outline:1px solid #ffffff">
+        <h2>Dialogs</h2>
+        <material-button (trigger)="showBasicDialog = true"
+                        [disabled]="showBasicDialog"
+                        raised
+                        class="blue">
+          טסט דיאלוג מודלי
+        </material-button>
+      </td>
+      <td style="width:25%;outline:1px solid #ffffff">
+        <h2>Text box</h2>
+        <material-input [maxCount]="5" label="Max 5 chars"></material-input>
+      </td>
+  </tr>
+  <tr>
+    <td style="width:25%;outline:1px solid #ffffff">
+      <h2>Checkbox</h2>
+      <material-checkbox [indeterminate]="true" label="work in progress"></material-checkbox>
+    </td>
+    <td style="width:25%;outline:1px solid #ffffff">
+      <h2>Spinner</h2>
+      <div dir="ltr">
+        <material-spinner></material-spinner> &nbsp; waiting for Godot
+      </div>
+    </td>
+    <td style="width:25%;outline:1px solid #ffffff">
+      <h2>Material Radio</h2>
+        <material-radio-group>
+          <material-radio [checked]="true">default choice
+          </material-radio>
+          <material-radio>alternative choice
+          </material-radio>
+        </material-radio-group>      
+    </td>
+    <td style="width:25%;outline:1px solid #ffffff">
+      <h2>Toggles</h2>
+      <material-toggle label="Unchecked"></material-toggle>      
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%;outline:1px solid #ffffff">
+        <h2>Date Picker</h2>
+        <input type="date" name="bday" [(ngModel)]="Date1">
+        <div>{{Date1}}</div>
+    </td>
+    <td style="width:25%;outline:1px solid #ffffff">&nbsp;</td>
+    <td style="width:25%;outline:1px solid #ffffff">&nbsp;</td>
+    <td style="width:25%;outline:1px solid #ffffff">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="width:25%;outline:1px solid #ffffff">
+      <h2>Tabs</h2>
+      <material-tab-panel>
+        <material-tab label="tab 1">
+          <div>
+            These are the contents of Tab 1.
+          </div>
+        </material-tab>
+        <material-tab label="tab 2">
+          <div>
+            Tab 2 contents, on the other hand, look thusly.
+          </div>
+        </material-tab>
+        <material-tab label="טאב1">
+          <div>
+            <h3>Tab 3 is serious about its contents</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni necessitatibus quam qui quis rerum sit, sunt voluptatum. Commodi, corporis minus nemo officiis quisquam rem. Magni odit quo temporibus veritatis!
+            </p>
+          </div>
+        </material-tab>
+      </material-tab-panel>
+    </td>
+  </tr>
+</table>
 
 <modal [visible]="showBasicDialog">
   <material-dialog class="basic-dialog">
@@ -31,24 +127,3 @@
 
   </material-dialog>
 </modal>
-<hr>
-<h2>Glyphs</h2>
-<glyph icon="favorite"></glyph>
-<glyph icon="business"></glyph>
-<glyph icon="thumb_up"></glyph>
-<glyph icon="bluetooth_connected"></glyph>
-<glyph icon="insert_photo"></glyph>
-<glyph icon="more_horiz"></glyph>
-<hr>
-Input
-<br/>
-<material-input [maxCount]="5" label="Max 5 chars"></material-input>
-<hr>
-Checkbox
-<br/>
-<material-checkbox [indeterminate]="true" label="work in progress"></material-checkbox>
-<hr>
-<h2>Spinner</h2>
-<div dir="ltr">
-  <material-spinner></material-spinner> &nbsp; waiting for Godot
-</div>
